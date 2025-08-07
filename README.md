@@ -1,6 +1,6 @@
 # 🌟 Personal Diary Assistant
 
-A comprehensive personal diary assistant powered by Memori's advanced memory capabilities, designed to help you track your daily experiences, analyze patterns, and receive personalized recommendations for improving your life.
+A comprehensive personal diary assistant powered by [GibsonAI](https://www.gibsonai.com/), [Streamlit](https://streamlit.io/), [Memori](https://github.com/GibsonAI/memori)'s advanced memory capabilities, designed to help you track your daily experiences, analyze patterns, and receive personalized recommendations for improving your life.
 
 ## ✨ Features
 
