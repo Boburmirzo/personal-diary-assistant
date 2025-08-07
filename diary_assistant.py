@@ -70,11 +70,13 @@ class PersonalDiaryAssistant:
                 "Invalid OpenAI API key format. API key should start with 'sk-' and be at least 20 characters long."
             )
 
+        # Set the API key as environment variable for LiteLLM to use
+        os.environ["OPENAI_API_KEY"] = api_key
+
         self.memory_system = Memori(
             database_connect=f"sqlite:///{database_path}",
             conscious_ingest=True,
             verbose=False,  # Set to True for debugging
-            openai_api_key=api_key,
             namespace="personal_diary",
         )
 
